@@ -5,7 +5,7 @@
 
 | ![scr1](https://github.com/kimiaf1998/Retinanet/blob/master/screenshots/5.png "scr1") | ![scr2](https://github.com/kimiaf1998/Retinanet/blob/master/screenshots/6.png "scr2") |
 | ------------ | ------------ |
-| ![scr4](https://github.com/kimiaf1998/Retinanet/blob/master/screenshots/3.png "scr4") | ![scr3](https://github.com/kimiaf1998/Retinanet/blob/master/screenshots/1.png "scr3") |
+| ![scr4](https://github.com/kimiaf1998/Retinanet/blob/master/screenshots/1.png "scr4") | ![scr3](https://github.com/kimiaf1998/Retinanet/blob/master/screenshots/3.png "scr3") |
 
 RetinaNet is a one-stage detection algorithm, introduced in 2017 and 2018 by Facebook AI Researchers (FAIR) in a paper called [Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002 "Focal Loss for Dense Object Detection").
 In this repository, an attempt has been made to implement the algorithm on ResNet-50 and ResNet-101 backbones, primarily using [Pytorch](https://pytorch.org/ "Pytorch") library with [CUDA](https://en.wikipedia.org/wiki/CUDA "CUDA") support under COCO-2014 dataset.
