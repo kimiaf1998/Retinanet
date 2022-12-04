@@ -1,5 +1,5 @@
 # RetinaNet - Object Detection
-<img src="https://badgen.net/badge/Version/1.0/blue?icon=github"> <img src="https://badgen.net/badge/Status/Stable/green?icon=git">
+<img src="https://badgen.net/badge/Version/1.1/blue?icon=github"> <img src="https://badgen.net/badge/Status/Stable/green?icon=git">
 <br/>
 
 
