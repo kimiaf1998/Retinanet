@@ -18,7 +18,7 @@ According to the [definition](https://tinyurl.com/5bksrrrr "definition"):
 
 <br>
 
- ![scr1](https://www.researchgate.net/publication/333048961/figure/fig8/AS:758094166495235@1557755142748/The-framework-of-RetinaNet-FPN-feature-pyramid-network.ppm "scr1")
+ ![scr1](https://pbs.twimg.com/media/D_TF0tjUEAElZkp.jpg "scr1")
 
 This network uses two key options to resolve the class imbalance problem:
 - **Feature Pyramud Network**: By [definition](https://paperswithcode.com/method/fpn "definition"), a Feature Pyramid Network, or FPN, is a feature extractor that takes a single-scale image of an arbitrary size as input, and outputs proportionally sized feature maps at multiple levels, in a fully convolutional fashion. This process is independent of the backbone convolutional architectures. It therefore acts as a generic solution for building feature pyramids inside deep convolutional networks to be used in tasks like object detection.
