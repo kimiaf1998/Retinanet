@@ -40,6 +40,7 @@ We have utilized the [PyCharm](https://www.jetbrains.com/pycharm/ "PyCharm") IDE
 ## Run
 1. **Train the network**
 To run the project, you need to train the network in order to have the weight file. Simply open the project in your IDE and change `DATASET_PATH` variable to be tailored to your dataset path. This variable is located in the first line of the [constants.py](https://github.com/kimiaf1998/Retinanet/blob/master/net/utility/constants.py "constants.py"). You can also change other parameters such as epochs and loss within this file. After all, train the network by running the [train.py](https://github.com/kimiaf1998/Retinanet/blob/master/train.py "train.py") file to store the .pt weight files on your local disk.
+
 (You can also use [This](https://google.com "This") pre trained model instead of training the network from scratch)
 
 
