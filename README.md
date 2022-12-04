@@ -39,8 +39,8 @@ We have utilized the [PyCharm](https://www.jetbrains.com/pycharm/ "PyCharm") IDE
 
 ## Run
 1. **Train the network**
-To run the project, you need to train the network in order to have the weight file. Simply open the project in your IDE and change `DATASET_PATH` variable to be tailored to your dataset path. This variable is located in the first line of the [constants.py](https://github.com/kimiaf1998/Retinanet/blob/master/net/utility/constants.py "constants.py"). You can also change other parameters such as epochs and loss within this file. After all, train the network by running the [train.py](htps://google.com "train.py") file to store the .pt weight files on your local disk.
+To run the project, you need to train the network in order to have the weight file. Simply open the project in your IDE and change `DATASET_PATH` variable to be tailored to your dataset path. This variable is located in the first line of the [constants.py](https://github.com/kimiaf1998/Retinanet/blob/master/net/utility/constants.py "constants.py"). You can also change other parameters such as epochs and loss within this file. After all, train the network by running the [train.py](https://github.com/kimiaf1998/Retinanet/blob/master/train.py "train.py") file to store the .pt weight files on your local disk.
 
 
 2. **Visualize outputs**
-Modify the `MODL_PATH` variable to an arbitrary weight file and run the [visualization.py]([constants.py](https://github.com/kimiaf1998/Retinanet/blob/master/net/utility/constants.py "constants.py" "visualization.py") file. It takes a while to show corresponding bounding boxes around the detected objects within a batch of images.
+Modify the `MODL_PATH` variable to an arbitrary weight file and run the [visualization.py](https://github.com/kimiaf1998/Retinanet/blob/master/visualization.py "visualization.py") file. It takes a while to show corresponding bounding boxes around the detected objects within a batch of images.
