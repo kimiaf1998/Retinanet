@@ -7,8 +7,8 @@
 | ------------ | ------------ |
 | ![scr4](https://github.com/kimiaf1998/Retinanet/blob/master/screenshots/1.png "Detection Result 3") | ![scr3](https://github.com/kimiaf1998/Retinanet/blob/master/screenshots/3.png "Detection Result 4") |
 
-RetinaNet is a one-stage detection algorithm, introduced in 2017 and 2018 by Facebook AI Researchers (FAIR) in a paper called [Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002 "Focal Loss for Dense Object Detection").
-In this repository, an attempt has been made to implement the algorithm on ResNet-50 and ResNet-101 backbones, primarily using [Pytorch](https://pytorch.org/ "Pytorch") library with [CUDA](https://en.wikipedia.org/wiki/CUDA "CUDA") support under COCO-2014 dataset.
+RetinaNet is a one-stage detection algorithm introduced in 2017 and 2018 by Facebook AI Researchers (FAIR) in a paper called [Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002 "Focal Loss for Dense Object Detection").
+In this repository, an attempt has been made to implement the algorithm on ResNet-50 and ResNet-101 backbones, primarily using the [Pytorch](https://pytorch.org/ "Pytorch") library with [CUDA](https://en.wikipedia.org/wiki/CUDA "CUDA") support under the COCO-2014 dataset.
 
 <br>
 
@@ -39,8 +39,8 @@ We have utilized the [PyCharm](https://www.jetbrains.com/pycharm/ "PyCharm") IDE
 
 ## Run
 1. **Train the network**
-The first step to executing the project is to train it. You need to train the network and use the generated weight file to perform the object detection algorithm. Hence, open the project in your IDE and change the `DATASET_PATH` variable to point to the directory of your dataset (i.e. COCO). This variable is located in the first line of the [constants.py](https://github.com/kimiaf1998/Retinanet/blob/master/net/utility/constants.py "constants.py"). You can also change other parameters including epochs and loss within this file. Finally, start training the network by running the [train.py](https://github.com/kimiaf1998/Retinanet/blob/master/train.py "train.py") file to store .pt files in your local disk.<br>(You can also use [This](https://google.com "This") pre-trained model instead of training the network from scratch)
+The first step to executing the project is to train it. You must train the network and use the generated weight file to perform the object detection algorithm. Hence, open the project in your IDE and change the `DATASET_PATH` variable to point to the directory of your dataset (i.e., COCO). This variable is located in the first line of the [constants.py](https://github.com/kimiaf1998/Retinanet/blob/master/net/utility/constants.py "constants.py"). You can also change other parameters including epochs and loss within this file. Finally, start training the network by running the [train.py](https://github.com/kimiaf1998/Retinanet/blob/master/train.py "train.py") file to store .pt files on your local disk.<br>(You can also use [This](https://google.com "This") pre-trained model instead of training the network from scratch.)
 
 
 2. **Visualize outputs**
-Modify the `MODL_PATH` variable to your desired weight file and run the [visualization.py](https://github.com/kimiaf1998/Retinanet/blob/master/visualization.py "visualization.py") file. It may take a while depending on your system configuration to show corresponding bounding boxes around the detected objects within a batch of images.
+Modify the `MODL_PATH` variable to your desired weight file and run the [visualization.py](https://github.com/kimiaf1998/Retinanet/blob/master/visualization.py "visualization.py") file. Depending on your system configuration, it may take a while to show corresponding bounding boxes around the detected objects within a batch of images.
