@@ -3,9 +3,9 @@
 <br/>
 
 
-| ![scr1](https://github.com/kimiaf1998/Retinanet/blob/master/screenshots/5.png "scr1") | ![scr2](https://github.com/kimiaf1998/Retinanet/blob/master/screenshots/6.png "scr2") |
+| ![scr1](https://github.com/kimiaf1998/Retinanet/blob/master/screenshots/5.png "Detection Result 1") | ![scr2](https://github.com/kimiaf1998/Retinanet/blob/master/screenshots/6.png "Detection Result 2") |
 | ------------ | ------------ |
-| ![scr4](https://github.com/kimiaf1998/Retinanet/blob/master/screenshots/1.png "scr4") | ![scr3](https://github.com/kimiaf1998/Retinanet/blob/master/screenshots/3.png "scr3") |
+| ![scr4](https://github.com/kimiaf1998/Retinanet/blob/master/screenshots/1.png "Detection Result 3") | ![scr3](https://github.com/kimiaf1998/Retinanet/blob/master/screenshots/3.png "Detection Result 4") |
 
 RetinaNet is a one-stage detection algorithm, introduced in 2017 and 2018 by Facebook AI Researchers (FAIR) in a paper called [Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002 "Focal Loss for Dense Object Detection").
 In this repository, an attempt has been made to implement the algorithm on ResNet-50 and ResNet-101 backbones, primarily using [Pytorch](https://pytorch.org/ "Pytorch") library with [CUDA](https://en.wikipedia.org/wiki/CUDA "CUDA") support under COCO-2014 dataset.
@@ -18,7 +18,7 @@ According to the [definition](https://tinyurl.com/5bksrrrr "definition"):
 
 <br>
 
- ![scr1](https://pbs.twimg.com/media/D_TF0tjUEAElZkp.jpg "scr1")
+ ![scr1](https://pbs.twimg.com/media/D_TF0tjUEAElZkp.jpg "RetinaNet Architecture")
 
 <br>This network uses two key options to resolve the class imbalance problem:
 - **Feature Pyramud Network**: By [definition](https://paperswithcode.com/method/fpn "definition"), a Feature Pyramid Network, or FPN, is a feature extractor that takes a single-scale image of an arbitrary size as input, and outputs proportionally sized feature maps at multiple levels, in a fully convolutional fashion. This process is independent of the backbone convolutional architectures. It therefore acts as a generic solution for building feature pyramids inside deep convolutional networks to be used in tasks like object detection.
