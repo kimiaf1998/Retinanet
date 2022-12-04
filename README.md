@@ -43,4 +43,4 @@ The first step to executing the project is to train it. You must train the netwo
 
 
 2. **Visualize outputs**
-Modify the `MODL_PATH` variable to your desired weight file and run the [visualization.py](https://github.com/kimiaf1998/Retinanet/blob/master/visualization.py "visualization.py") file. Depending on your system configuration, it may take a while to show corresponding bounding boxes around the detected objects within a batch of images.
+Modify the `MODEL_PATH` variable to your desired weight file and run the [visualization.py](https://github.com/kimiaf1998/Retinanet/blob/master/visualization.py "visualization.py") file. Depending on your system configuration, it may take a while to show corresponding bounding boxes around the detected objects within a batch of images.
